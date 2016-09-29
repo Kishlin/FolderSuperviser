@@ -26,23 +26,23 @@ def folderRenamed(old_name, new_name):
 # Annonce la modification d'un fichier.
 # @param name nom du fichier modifié
 def fileModified(name):
-    logging.info("The file " + name + " has been modified" + ".")
+    logging.info("The  file  " + name + " has been modified" + ".")
 
 # Annonce la création d'un ficher
 # @param name nom du fichier créé
 def fileAdded(name):
-    logging.info("The file " + name + " has been added" + ".")
+    logging.info("The  file  " + name + " has been added" + ".")
 
 # Annonce la suppression d'un fichier
 # @param name nom du fichier supprimé
 def fileDeleted(name):
-    logging.info("The file " + name + " has been deleted" + ".")
+    logging.info("The  file  " + name + " has been deleted" + ".")
 
 # Annonce le changement de nom d'un fichier.
 # @param old ancien nom du fichier
 # @param new nouveau nom du fichier
 def fileRenamed(old_name, new_name):
-    logging.info("The file " + old_name + " has been moved to " + new_name + ".")
+    logging.info("The  file  " + old_name + " has been moved to " + new_name + ".")
 
 # Compare deux dictionnaires de dossiers pour en trouver les différences
 # @param old ancien état
