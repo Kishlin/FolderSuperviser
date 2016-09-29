@@ -122,8 +122,6 @@ def run(args) :
         filesAnalyse(old_state[1], new_state[1])
         old_state = new_state
 
-
-
 # Définie les arguments requis et parse ceux indiqués par l'utilisateur.
 # @return Namespace args
 def parse_arguments() :
